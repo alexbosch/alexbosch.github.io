@@ -93,9 +93,10 @@ p {
 }
 
 .cactus {
+  clear: both;
   position: relative;
-  left: 40%;
-  top: 450px;
+  left: 55%;
+  top: 650px;
   width: 100px;
   height: 100px;
 }
