@@ -1,0 +1,194 @@
+h1 {
+  color: #ffffff;
+  font-family: 'Luckiest Guy', cursive;
+  font-size: 80px;
+  text-align: center;
+}
+
+.row,.column {
+  box-sizing: border-box;
+}
+
+.row {
+  max-width: 1000px;
+  column-gap: 0px;
+  margin-top: 290px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.column {
+  position: relative;
+  border: 10px solid white;
+}
+
+@media (min-width: 600px) {
+  .row {
+    column-count: 2
+  }
+}
+
+@media (min-width: 1000px) {
+  .row {
+    column-count: 3
+  }
+}
+
+.row img {
+  width: 100%;
+}
+
+.bovenachtergrond {
+ background-color: #d67900;
+ width: 100%;
+ position: absolute;
+ height: 200px;
+ top: 0%;
+ left: 0%;
+}
+
+h2 {
+  text-align: center;
+  font-family: 'Fjalla One', sans-serif;
+  font-size: 40px;
+  position: relative;
+  top: 280px;
+}
+
+h3 {
+  font-family: 'Fjalla One', sans-serif;
+  font-size: 25px;
+  position: relative;
+  top: 280px;
+  padding: 0 10%;
+  text-align: left;
+}
+
+p {
+  font-family: 'Fjalla One', sans-serif;
+  font-size: 20px;
+  position: relative;
+  top: 280px;
+  padding: 0 10%;
+  padding-bottom: 15px;
+  text-align: left;
+}
+
+.pindex {
+  text-align: center;
+}
+
+.pannenkoekkat {
+  position: relative;
+  top: 300px;
+  left: 7%;
+  width: 500px;
+  height: 300px;
+}
+
+.sopaninovoorbeeld {
+  position: relative;
+  top: 300px;
+  left: 40%;
+  width: 500px;
+  height: 300px;
+}
+
+.cactus {
+  position: relative;
+  left: 40%;
+  top: 450px;
+  width: 100px;
+  height: 100px;
+}
+
+.panmix {
+  float: right;
+  height: 200px;
+}
+
+.Poffertjes {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 300px;
+  position: relative;
+  top: 350px
+}
+
+ul {
+  position: relative;
+  top: 300px;
+  padding: 0 10%;
+}
+
+.ulmenu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #424147;
+    position: absolute;
+    top: 200px;
+    left: 0%;
+    width: 100%;
+}
+
+li {
+  font-family: 'Fjalla One', sans-serif;
+  font-size: 20px;
+  text-align: left;
+}
+
+.limenu {
+    float: left;
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 16px;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #d67900;
+}
+
+.active {
+    background-color: #1e6cb5;
+}
+
+table {
+  font-family: 'Fjalla One', sans-serif;
+  font-size: 20px;
+  border-collapse: collapse;
+  width: 75%;
+  position: relative;
+  top: 300px;
+  left: 10%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+
+}
+
+.ukulele {
+  padding: 0 10%;
+  position: relative;
+  top: 300px;
+  width: 80%;
+
+}
+
+@media (min-width: 1000px) {
+  .ukulele {
+    width: 800px;
+  }
+}
